@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-14T19:28:33 IST" name="Suite" finished-at="2024-07-14T19:29:00 IST" duration-ms="27794">
+    <groups>
+    </groups>
+    <test started-at="2024-07-14T19:28:33 IST" name="Test" finished-at="2024-07-14T19:29:00 IST" duration-ms="27794">
+      <class name="com.ecommerceAutomation.testCases.TC_ContactUsForm_006">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerceAutomation.testCases.TC_ContactUsForm_006@14fc1f0]" started-at="2024-07-14T19:28:49 IST" name="setUp" finished-at="2024-07-14T19:28:55 IST" duration-ms="5570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ContactUsForm()[pri:0, instance:com.ecommerceAutomation.testCases.TC_ContactUsForm_006@14fc1f0]" started-at="2024-07-14T19:28:55 IST" name="ContactUsForm" finished-at="2024-07-14T19:29:00 IST" duration-ms="4990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerceAutomation.testCases.TC_ContactUsForm_006@14fc1f0]" started-at="2024-07-14T19:29:00 IST" name="tearDown" finished-at="2024-07-14T19:29:00 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerceAutomation.testCases.TC_ContactUsForm_006 -->
+      <class name="com.ecommerceAutomation.testCases.TC_InvalidLogin_003">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerceAutomation.testCases.TC_InvalidLogin_003@73cd37c0]" started-at="2024-07-14T19:28:33 IST" name="setUp" finished-at="2024-07-14T19:28:43 IST" duration-ms="9906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidLogin()[pri:0, instance:com.ecommerceAutomation.testCases.TC_InvalidLogin_003@73cd37c0]" started-at="2024-07-14T19:28:43 IST" name="InvalidLogin" finished-at="2024-07-14T19:28:47 IST" duration-ms="4677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerceAutomation.testCases.TC_InvalidLogin_003@73cd37c0]" started-at="2024-07-14T19:28:47 IST" name="tearDown" finished-at="2024-07-14T19:28:49 IST" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerceAutomation.testCases.TC_InvalidLogin_003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
