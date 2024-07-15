@@ -22,6 +22,7 @@ public class BaseClass {
 	public ExtentSparkReporter spark;
 	public ExtentReports extent;
 	public JavascriptExecutor js;
+	public int newvar;
 
 	
 	
