@@ -66,7 +66,7 @@ public class ContactUS {
 	}
 	public void clickSubmit(JavascriptExecutor js)
 	{
-		js.executeScript("arguments[0].click()",btnSubmit);
+		//js.executeScript("arguments[0].click()",btnSubmit);
 	}
 	public void clickHome()
 	{
