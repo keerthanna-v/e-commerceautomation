@@ -2,7 +2,7 @@ package com.ecommerceAutomation.pageObjects;
 
 import java.time.Duration;
 
-import org.openqa.selenium.JavascriptExecutor;
+//import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -182,7 +182,7 @@ public class RegisterUser {
 		dropdown = new Select(ddlYear);
 		dropdown.selectByValue(year);
 	}
-	public void selectNewsletter(JavascriptExecutor js)
+/*	public void selectNewsletter(JavascriptExecutor js)
 	{
 	
 
@@ -193,7 +193,7 @@ public class RegisterUser {
 		js.executeScript("arguments[0].click()",chkoptin);
 	
 	}
-	
+	*/
 	public void setFirstName(String fname)
 	{
 		txtFirstName.sendKeys(fname);
@@ -245,10 +245,10 @@ public class RegisterUser {
 	{
 		txtMobileNumber.sendKeys(mobilenumber);
 	}
-	public void clickCreateAccount(JavascriptExecutor js)
+	//public void clickCreateAccount(JavascriptExecutor js)
 	{
-		js.executeScript("arguments[0].click()",btnCreateAccount);
-	}
+		//js.executeScript("arguments[0].click()",btnCreateAccount);
+	}//
 	
 	public void clickContinue()
 	{
